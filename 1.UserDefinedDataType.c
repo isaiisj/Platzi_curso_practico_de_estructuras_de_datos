@@ -10,7 +10,7 @@ struct client
     char Address[100];
 };
 
-main(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
     struct client client1 = {0};
     strcpy(client1.Name , "Camilo Valencia");
