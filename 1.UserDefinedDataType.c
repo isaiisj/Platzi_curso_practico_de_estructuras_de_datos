@@ -5,7 +5,7 @@
 struct client
 {
     char Name[50];
-    char Id[10];
+    char Id[12];
     float Credit;
     char Address[100];
 };
